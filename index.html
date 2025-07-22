@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesian Culture - Encyclopedia</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="w-full bg-white shadow-md fixed z-10">
+            <div class="mx-auto px-4 max-w-6xl">
+                <div class="h-16 flex justify-between items-center">
+                    <!-- navigation logo -->
+                    <div class="flex-shrink-0 flex item-center">
+                        <span class="text-xl font-bold text-indigo-600">Nusa Pedia</span>
+                    </div>
+
+                    <!-- navigation links -->
+                    <div class="md:flex hidden space-x-6">
+                        <a href="" class="px-3 py-2 rounded-md text-sm text-gray-700 hover:bg-blue-50 hover:text-indigo-600">Home</a>
+                        <a href="" class="px-3 py-2 rounded-md text-sm text-gray-700 hover:bg-blue-50 hover:text-indigo-600">About</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Title Section -->
+        <section class="pt-35">
+            <div class="text-center max-w-3xl mx-auto px-4 md:px-0">
+                <!-- Content Title -->
+                <h1 class="font-bold text-5xl mb-8 text-indigo-800">Nusantara Cuisine</h1>
+                <p class="text-lg text-gray-600 mb-8">Indonesia is a food lover's paradise with thousands of traditional dishes. Every region has its own unique flavors, using locally sourced spices and cooking techniques passed down through generations.</p>
+
+                <!-- Search Bar -->
+                <div class="flex justify-center item-center">
+                    <input type="text" name="" id="search-input" class="w-125 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Search for dishes, regions, or ingredients">
+                </div>
+            </div>
+        </section>
+
+        <!-- Cuisine Section -->
+        <section id="cuisine">
+            <div class="max-w-6xl mx-auto">
+                <h1 class="font-bold text-3xl mb-8 mt-20 text-center text-gray-800">Main Cuisine</h1>
+                <!-- Cuisine Card Container -->
+                <div id="container-cuisine" class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 justify-items-center mb-10">
+
+                    <!-- Card Item 1: Rendang -->
+                    <a href="" class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                        <!-- Card Image -->
+                        <img src="img/rendang.jpg" alt="" class="w-full h-60 object-cover rounded-t-lg">
+
+                        <!-- Card Body -->
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-2">
+                                <h5 class="text-2xl font-semibold text-gray-800">Rendang</h5>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-4 py-1 rounded-full">West Sumatera</span>
+                            </div>
+                            <span class="bg-red-600 text-white text-xs px-4 py-1 rounded-full">Spicy Hot</span>
+                            <p class="mt-3 text-gray-600">A rich meat dish slow-cooked in coconut milk and spices until tender and caramelized. Famously crowned as the world's most delicious food.</p>
+                        </div>                        
+                    </a>
+
+                    <!-- Card Item 2: Gudeg -->
+                    <a href="" class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                        <!-- Card Image -->
+                        <img src="img/gudeg.jpg" alt="" class="w-full h-60 object-cover rounded-t-lg">
+
+                        <!-- Card Body -->
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-2">
+                                <h5 class="text-2xl font-semibold text-gray-800">Gudeg</h5>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-4 py-1 rounded-full">Yogyakarta</span>
+                            </div>
+                            <span class="bg-white text-gray-800 text-xs px-4 py-1 rounded-full border border-gray-400">Not Spicy</span>
+                            <p class="mt-3 text-gray-600">A Yogyakarta specialty made from young jackfruit slow-cooked in coconut milk and palm sugar, creating its signature sweet flavor.</p>
+                        </div>                        
+                    </a>
+
+                    <!-- Card Item 3: Pempek -->
+                    <a href="" class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                        <!-- Card Image -->
+                        <img src="img/pempek.jpg" alt="" class="w-full h-60 object-cover rounded-t-lg">
+
+                        <!-- Card Body -->
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-2">
+                                <h5 class="text-2xl font-semibold text-gray-800">Pempek</h5>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-4 py-1 rounded-full">South Sumatera</span>
+                            </div>
+                            <span class="bg-blue-800 text-white text-xs px-4 py-1 rounded-full">Medium</span>
+                            <p class="mt-3 text-gray-600">A traditional dish made from fish and sago, served with a signature cuko sauce that's delightfully tangy, sweet, and spicy all at once.</p>
+                        </div>                        
+                    </a>
+
+                    <!-- Card Item 4: Sate Lilit -->
+                    <a href="" class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                        <!-- Card Image -->
+                        <img src="img/sate-lilit.jpg" alt="" class="w-full h-60 object-cover rounded-t-lg">
+
+                        <!-- Card Body -->
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-2">
+                                <h5 class="text-2xl font-semibold text-gray-800">Sate Lilit</h5>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-4 py-1 rounded-full">Bali</span>
+                            </div>
+                            <span class="bg-blue-800 text-white text-xs px-4 py-1 rounded-full">Medium</span>
+                            <p class="mt-3 text-gray-600">Authentic Balinese satay made from minced meat blended with grated coconut and aromatic spices, skillfully wrapped around lemongrass stalks for grilling.</p>
+                        </div>                        
+                    </a>
+
+                    <!-- Card 5: Papeda -->
+                    <a href="" class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                        <!-- Card Image -->
+                        <img src="img/papeda.jpg" alt="" class="w-full h-60 object-cover rounded-t-lg">
+
+                        <!-- Card Body -->
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-2">
+                                <h5 class="text-2xl font-semibold text-gray-800">Papeda</h5>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-4 py-1 rounded-full">Maluku & Papua</span>
+                            </div>
+                            <span class="bg-white text-gray-800 text-xs px-4 py-1 rounded-full border border-gray-400">Not Spicy</span>
+                            <p class="mt-3 text-gray-600">A food made from sago, with a delightfully chewy texture, typically served with fish in fragrant yellow turmeric broth.</p>
+                        </div>                        
+                    </a>
+                    <!-- Card Item 6: Ayam Betutu -->
+                    <a href="" class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                        <!-- Card Image -->
+                        <img src="img/ayam-betutu.jpg" alt="" class="w-full h-60 object-cover rounded-t-lg">
+
+                        <!-- Card Body -->
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-2">
+                                <h5 class="text-2xl font-semibold text-gray-800">Ayam Betutu</h5>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-4 py-1 rounded-full">Bali</span>
+                            </div>
+                            <span class="bg-red-600 text-white text-xs px-4 py-1 rounded-full">Spicy Hot</span>
+                            <p class="mt-3 text-gray-600">A whole chicken marinated in traditional Balinese spices, slow-cooked to tender perfection until the rich flavors fully infuse every bite.</p>
+                        </div>                        
+                    </a>
+                </div>
+
+                <!-- CTA -->
+                <div class="bg-indigo-600 py-8 px-40 my-20 rounded-lg">
+                    <h3 class="text-white text-2xl font-bold text-center mb-5">💡 Did You Know?</h3>
+                    <p class="text-white text-center text-lg">Indonesia has over 30 distinct types of sambal (chili paste), each unique to its region. And rendang? This iconic dish can last for weeks without preservatives—thanks to its slow-cooking process and natural spices!"</p>
+                </div>
+            </div>            
+        </section>
+
+    </main>
+</body>
+</html>
