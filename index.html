@@ -14,7 +14,7 @@
 <body>
     <header>
         <!-- Navigation Bar -->
-        <nav class="w-full bg-white shadow-md fixed z-10">
+        <nav class="w-full bg-white border-b border-gray-200 fixed z-10">
             <div class="mx-auto px-4 max-w-6xl">
                 <div class="h-16 flex justify-between items-center">
                     <!-- navigation logo -->
@@ -23,9 +23,9 @@
                     </div>
 
                     <!-- navigation links -->
-                    <div class="md:flex hidden space-x-6">
-                        <a href="" class="px-3 py-2 rounded-md text-sm text-gray-700 hover:bg-blue-50 hover:text-indigo-600">Home</a>
-                        <a href="" class="px-3 py-2 rounded-md text-sm text-gray-700 hover:bg-blue-50 hover:text-indigo-600">About</a>
+                    <div class="md:flex hidden space-x-4">
+                        <a href="" class="px-3 py-2 rounded-md text-sm font-semibold text-indigo-600 hover:bg-blue-50 hover:text-indigo-600">Home</a>
+                        <a href="" class="px-3 py-2 rounded-md text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-indigo-600">About</a>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,30 @@
                 </div>
             </div>            
         </section>
-
     </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-gray-800 py-12 px-4 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <!-- Information Section -->
+            <div class="flex md:flex-row justify-between gap-8">
+                <div class="md:w-1/3">
+                    <h2 class="font-bold text-2xl mb-4 text-indigo-600">Nusa Pedia</h2>
+                    <p class="mb-6">A digital encyclopedia documenting the cultural richness of Indonesia. Preserving ancestral heritage for future generations.</p>
+                </div>
+
+                <div class="md:w-1/3">
+                    <h3 class="font-semibold mb-4">About</h3>
+                    <p class="text-sm">Our mission is to preserve and document the cultural wealth of Indonesia.</p>
+                </div>
+            </div>
+
+            <!-- Copyright and Additional Information -->
+            <div class="border-t border-gray-300 mt-8 pt-8 flex flex-row justify-between items-center text-sm">
+                <p>© 2025 Nusa Pedia. Preserving culture through technology</p>
+                <p>Made with <span class="text-red-500 mx-1">❤️</span> Putera Islamiyadi</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
